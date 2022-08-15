@@ -34,7 +34,6 @@ function solve (A, B) {
     const prefixSum = A.map((element) => {
         sum = sum + element;
         return sum})
-    console.log(prefixSum);
     result = B.map(element => {
         let high = prefixSum.length - 1;
         let low = 0;
@@ -57,5 +56,5 @@ function solve (A, B) {
     return result;
 }
 
-const reult = solve([3, 4, 4, 6],[44, 3, 0, 12]);
-console.log(reult)
+const result = solve([3, 4, 6, 7],[44, 3, 10, 12]);
+console.log(result)
