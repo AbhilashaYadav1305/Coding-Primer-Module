@@ -41,7 +41,7 @@ function solve (A, B) {
         while(high >= low){
             const mid = Math.floor(low + ((high - low)/2));
             if(element === prefixSum[mid]){
-                return 1;
+                return mid + 1;
             } else {
                 if(element > prefixSum[mid]){
                     total = mid + 1;
@@ -56,5 +56,5 @@ function solve (A, B) {
     return result;
 }
 
-const result = solve([3, 4, 6, 7],[44, 3, 10, 12]);
+const result = solve([1, 2, 6, 7],[44, 3, 10, 12]);
 console.log(result)
