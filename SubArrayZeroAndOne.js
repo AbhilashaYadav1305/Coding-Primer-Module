@@ -32,7 +32,6 @@ function solveWithoutStorage (A){
                 count++;
            }
     } 
-    
    return count;
 }
 const retval = solveWithoutStorage("00011011")
