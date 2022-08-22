@@ -4,9 +4,6 @@ Given a string A, A is made up of 0's and 1's. Break A into substrings such that
 
 Find and return maximum number of substrings in which A can be broken.
 
-
-Input Format
-
 The only argument given is string A.
 Output Format
 
